@@ -7,6 +7,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01-GettingStarted", "01-Get
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GettingStarted", "GettingStarted\GettingStarted.csproj", "{6BD49FF6-DBC5-45DD-8664-D01B0148F207}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02-QueringDatabase", "02-QueringDatabase", "{D84B6B83-B1B3-4675-ABBF-B2D57C8329AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QueringDatabase", "QueringDatabase\QueringDatabase.csproj", "{E04DB5F5-13FF-451C-B25C-009409DFA660}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,12 +21,17 @@ Global
 		{6BD49FF6-DBC5-45DD-8664-D01B0148F207}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6BD49FF6-DBC5-45DD-8664-D01B0148F207}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6BD49FF6-DBC5-45DD-8664-D01B0148F207}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E04DB5F5-13FF-451C-B25C-009409DFA660}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E04DB5F5-13FF-451C-B25C-009409DFA660}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E04DB5F5-13FF-451C-B25C-009409DFA660}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E04DB5F5-13FF-451C-B25C-009409DFA660}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{6BD49FF6-DBC5-45DD-8664-D01B0148F207} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{E04DB5F5-13FF-451C-B25C-009409DFA660} = {D84B6B83-B1B3-4675-ABBF-B2D57C8329AE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F292A048-7573-4A55-A99E-EB3279ED2600}
